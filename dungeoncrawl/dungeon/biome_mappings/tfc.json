@@ -1,0 +1,33 @@
+{
+    "default": [
+      {"key": "dungeoncrawl:default"}
+    ],
+    "mapping": {
+  
+      "tfc:shore": [{"key": "dungeoncrawl:desert/default"}],
+      "tfc:badlands": [{"key": "dungeoncrawl:desert/default"}],
+      "tfc:canyons": [{"key": "dungeoncrawl:desert/default"}],
+      "tfc:inverted_badlands": [{"key": "dungeoncrawl:desert/default"}],
+
+      "tfc:hills": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:lake": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:low_canyons": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:lowlands": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:plains": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:plateau": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:plateau_lake": [{"key": "dungeoncrawl:forest/default"}],
+      "tfc:river": [{"key": "dungeoncrawl:forest/default"}],
+
+      "tfc:mountain_lake": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:mountain_river": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:mountains": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:old_mountain_lake": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:old_mountain_river": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:old_mountains": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:rolling_hills": [{"key": "dungeoncrawl:mountains/default"}],
+
+      "tfc:volcanic_mountain_lake": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:volcanic_mountain_river": [{"key": "dungeoncrawl:mountains/default"}],
+      "tfc:volcanic_mountains": [{"key": "dungeoncrawl:mountains/default"}]
+    }
+  }
