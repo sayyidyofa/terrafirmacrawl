@@ -236,10 +236,73 @@ const tagSeparator = "/"
 
 const rockTagPrefix = "tfc:rock"
 
-const rockStates = [
+const brickStates = [
     "bricks",
     "mossy_bricks",
     "cracked_bricks",
-    "chiseled"
+    //"chiseled"
 ]
 
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+}
+
+const weighedBricks = (rock, suffix = "") => {
+    return brickStates.map(state => {
+        return {
+            block: `${rockTagPrefix}${tagSeparator}${state}${tagSeparator}${rock}${suffix}`,
+            weight: getRandomInt(2, 5)
+        }
+    })
+}
+
+function generateTemplateSingleRock(rock, id = 0) {
+    return {
+        type: "theme",
+        id: id,
+        theme: {
+            normal: {
+                type: "random_block",
+                blocks: weighedBricks(rock)
+            },
+            normal2: {
+                type: "block",
+                block: "minecraft:obsidian"
+            },
+            solid: {
+                type: "random_block",
+                blocks: weighedBricks(rock)
+            },
+            floor: {
+                type: "random_block",
+                blocks: weighedBricks(rock)
+            },
+            stairs: {
+                type: "random_block",
+                blocks: weighedBricks(rock, "_stairs")
+            },
+            solid_stairs: {
+                type: "random_block",
+                blocks: weighedBricks(rock, "_stairs")
+            },
+            material: {
+                type: "random_block",
+                blocks: weighedBricks(rock)
+            },
+            slab: {
+                type: "random_block",
+                blocks: weighedBricks(rock, "_slab")
+            },
+            solid_slab: {
+                type: "random_block",
+                blocks: weighedBricks(rock, "_slab")
+            },
+            wall: {
+                type: "random_block",
+                blocks: weighedBricks(rock, "_wall")
+            }
+        }
+    }
+}

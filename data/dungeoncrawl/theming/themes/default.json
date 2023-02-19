@@ -1,0 +1,163 @@
+{
+    "type": "theme",
+    "id": 0,
+    "theme": {
+      "normal": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss",
+            "weight": 2
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss",
+            "weight": 2
+          }
+        ]
+      },
+      "normal2": {
+        "type": "block",
+        "block": "minecraft:obsidian"
+      },
+      "solid": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss",
+            "weight": 2
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss",
+            "weight": 3
+          }
+        ]
+      },
+      "floor": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss",
+            "weight": 4
+          }
+        ]
+      },
+      "stairs": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss_stairs",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss_stairs",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss_stairs",
+            "weight": 4
+          }
+        ]
+      },
+      "solid_stairs": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss_stairs",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss_stairs",
+            "weight": 2
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss_stairs",
+            "weight": 3
+          }
+        ]
+      },
+      "material": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss",
+            "weight": 4
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss",
+            "weight": 2
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss",
+            "weight": 3
+          }
+        ]
+      },
+      "slab": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss_slab",
+            "weight": 4
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss_slab",
+            "weight": 2
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss_slab",
+            "weight": 3
+          }
+        ]
+      },
+      "solid_slab": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss_slab",
+            "weight": 3
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss_slab",
+            "weight": 4
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss_slab",
+            "weight": 4
+          }
+        ]
+      },
+      "wall": {
+        "type": "random_block",
+        "blocks": [
+          {
+            "block": "tfc:rock/bricks/gneiss_wall",
+            "weight": 2
+          },
+          {
+            "block": "tfc:rock/mossy_bricks/gneiss_wall",
+            "weight": 4
+          },
+          {
+            "block": "tfc:rock/cracked_bricks/gneiss_wall",
+            "weight": 3
+          }
+        ]
+      }
+    }
+  }
